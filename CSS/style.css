@@ -390,6 +390,10 @@ li{
 .contact{
    
     width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+    height: auto;
+    
     
 }
 
@@ -407,29 +411,20 @@ li{
 }
 
 
-.contact {
-   
-    width: 100%;
-    
-    height: auto;
-    
-    
-}
+
 .contactItem{
    
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(650px, 1fr));
-  
-    
-   
+    grid-template-columns: repeat(auto-fill, minmax(475px, 1fr));
+    padding-top: 50px;
     gap: 5px;
     grid-auto-flow: dense; 
     align-items: center;
     justify-items: center;
-
 }
 
 .contact h2 {
+    padding-bottom: 20px;
     display: flex;
     height: 40%;
     align-items: center;
@@ -439,28 +434,16 @@ li{
 .contact-data{
    
     width: 80%;
+    height: 260px;
     display: inline-block;
-
-
-    
-  
    
-
-    padding: 5%;
-    
-    
+  
 }
 
 .contact-form{
-  
     width: 80%;
-  
- 
-  
-    
-    padding: 5%;
-
- 
+    height: 260px;
+   
 }
 
 .Project01{
