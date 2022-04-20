@@ -9,13 +9,13 @@
     /* title*/
     --color-title-text:#505D68;
     --size-title-font:50px;
-    --weight-title-font:700,Bold;
+    --weight-title-font:700, Bold;
     --font-family-title: 'Ubuntu', sans-serif; 
 
     /* subtitle*/
     --color-subtitle-text:#505D68;
     --size-subtitle-font:21px;
-    --weight-subtitle-font:700,Bold;
+    --weight-subtitle-font:Bold;
     --font-family-subtitle: 'Ubuntu', sans-serif; 
 
     /* paragraph*/
@@ -42,6 +42,7 @@
 .title{
     font-family:var(--font-family-title);
     font-size:var(--size-title-font);
+    font-weight: bold;
     color:var(--color-title-text) ;
 }
 
@@ -49,6 +50,7 @@
     font-family: var(--font-family-subtitle);
     font-size: var(--size-subtitle-font);
     color: var(--color-subtitle-text);
+    font-weight: var(--weight-subtitle-font);
 }
 
 p{
@@ -141,7 +143,7 @@ li{
     height: 60%;
     font-family: var(--font-family-title);
     font-size: 80px;
-    color:white ;
+    color:#ecf010 ;
 
     display: flex;
     align-items: flex-end;
@@ -152,6 +154,7 @@ li{
     display: flex;
     align-items: flex-start;
     text-align:justify;
+    color:#ecf010 ;
 
     padding-left: 10px;
     padding-top: 10px;
@@ -405,21 +408,24 @@ li{
 
 
 .contact {
+   
     width: 100%;
     
-    height: 670px;
+    height: auto;
     
     
 }
 .contactItem{
    
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(437px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(650px, 1fr));
   
     
    
     gap: 5px;
     grid-auto-flow: dense; 
+    align-items: center;
+    justify-items: center;
 
 }
 
@@ -432,6 +438,13 @@ li{
 
 .contact-data{
    
+    width: 80%;
+    display: inline-block;
+
+
+    
+  
+   
 
     padding: 5%;
     
@@ -439,13 +452,36 @@ li{
 }
 
 .contact-form{
-   
+  
+    width: 80%;
+  
+ 
+  
     
     padding: 5%;
 
-
-    
  
+}
+
+.Project01{
+    display: flex;
+    justify-content: center;
+
+}
+.ProjectMoreProject{
+    height: 524px;
+    border: 1px solid black;
+    background-color: #A1AEB7;
+    width: 80%;
+   
+
+
+}
+
+.carousel-inner img {
+    border: 1px solid var(--color-buttons);
+ 
+    height: 524px;
 }
 
 
